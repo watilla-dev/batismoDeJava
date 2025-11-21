@@ -14,6 +14,7 @@ public class Main {
         Sasuke.aldeia = "Aldeia da Folha";
         Sasuke.idade = 18;
 
+
         Naruto.sharinganAtivado();
 
 
