@@ -41,7 +41,6 @@ public class Main {
                         System.out.println("INICIANDO NOVA LISTA DE NINJAS");
                     }
                     break;
-
                 case 2:
                     for (int i = 0; i < tamanhoArray; i++) {
                         System.out.println(ninjas[i]);

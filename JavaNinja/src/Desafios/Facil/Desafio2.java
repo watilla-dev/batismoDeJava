@@ -1,4 +1,4 @@
-package NivelFacil.Desafios;
+package Desafios.Facil;
 
 import java.util.Scanner;
 
