@@ -9,6 +9,8 @@ public class Arrays {
 
         double[] notas = new double[4];
 
+        double total = 0;
+
         for (int i = 0; i < notas.length; i++) {
             System.out.println("Digite a nota " +  (i + 1) + ":");
             notas[i] = scanner.nextDouble();
@@ -17,7 +19,10 @@ public class Arrays {
 
         for (int i = 0; i < notas.length; i++) {
             System.out.println( (i + 1) + " BIMESTRE " + ":" + notas[i] );
-
+            total += notas[i];
+            double media = total / 4;
+            System.out.println("A MEDIA É: ");
+            System.out.println(media);
         }
 
 
