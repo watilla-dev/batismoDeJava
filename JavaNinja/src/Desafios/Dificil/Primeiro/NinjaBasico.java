@@ -1,15 +1,20 @@
 package Desafios.Dificil.Primeiro;
 
-public class NinjaBasico  implements NinjaAtribuicoes {
+
+public class NinjaBasico implements NinjaAtribuicoes {
     String nome;
     int idade;
-    String habilidade;
+    TipoHabilidade habilidade;
+
+
+
 
 
     public NinjaBasico(String nome, int idade, String habilidade) {
         this.nome = nome;
         this.idade = idade;
-        this.habilidade = habilidade;
+
+
     }
 
     @Override

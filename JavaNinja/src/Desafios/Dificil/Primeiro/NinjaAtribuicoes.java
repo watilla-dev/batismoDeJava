@@ -4,4 +4,6 @@ public interface NinjaAtribuicoes {
 
     String mostrarInformacoes();
     void executarHabilidade();
+
+
 }
